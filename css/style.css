@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 460px;) {
+.flex__container{
+  background-color: blue;
+}  
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(172, 230, 172);
+  margin: auto;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 2300px;
+}
+.navbar__links {
+  list-style: none;
+}
+.navbar__links li {
+  display: inline-block;
+  margin: 0 30px;
+  padding: 10px;
+}
+.navbar__logo {
+  width: 200px;
+  height: 200px;
+  
+}
+.titulo__general{
+  color: rgb(21, 21, 20);
+  font-weight: 600px;
+  text-align: left;
+}
+.title__principal{
+  margin: 50px; padding: auto;
+  text-align: center;
+  font-size: xx-large;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+.flex__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-template-columns: 33% 33% 33%;
+  }
+
+header {
+  background-color: lightblue;
+}
+
+.subtitulo__general{
+  font-size: 50px;
+  text-align: left;
+  color: white;
+}
+h4 {
+  color: white;
+  margin: 20px;
+  text-align: left;
+  padding-right: 300px;
+}
+h3{
+  color: white;
+  padding-right: 20px;
+  margin: 20px;
+}
+ul {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(76, 200, 241);
+  margin: auto;
+  Height: 1000px;
+  font-size: small; 
+
+}
+
+article {
+  width: 50rem;
+  padding: 2rem;
+}
+.tablaprecios {
+  margin: 90px;
+  padding: 150px;
+  background-color: rgb(147, 147, 230);
+  border border-collapse: separate;
+  border word-spacing:5px;
+ }
+
+ tr {
+  font-size: 50px;
+}
+
+.productosuno {
+  background-color: darkolivegreen;
+ 
+}
+   
+.productosdos {
+  background-color: darkolivegreen;
+}
+.productostres {
+  background-color: darkolivegreen;
+}
+.parrafonosotros{
+  color: rgb(100, 11, 11);
+}
+.grid-contenedor{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 15px;
+margin-left: 10%;
+}
+.section img{
+  width: 500px;
+}
+.titulo__nuestrassemillas{
+  color: rgb(5, 117, 5);
+  font-size: 250%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-position: right;
+  }
+.parrafo__nuestrassemillas{
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif
+margin: 20px;
+padding: 20px;
+    
+}
+.otrohacheuno{
+    border: 1px solid rgb(226, 182, 182);
+    padding: 5px;
+    background-color: white; 
+    color: rgb(154, 197, 154);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    height: 600px;
+    width: 690px;
+    
+}
+h2{
+    padding: 5px;
+}
+p{
+    padding: 10px;
+}
+iframe{
+    padding: 20px;
+    height: 460px;
+}
+.flex__videoscontenedor{
+display: flex;
+justify-content: space-around;
+flex flex-basis: auto;
+
+}
+.videouno{
+    background-color: chocolate;
+    margin: 20px;
+}
+.videodos{
+    background-color: chocolate;
+    margin: 20px;
+}
+.videotres{
+    background-color: chocolate;
+    margin: 20px;
+}
