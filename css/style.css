@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 460px;) {
+@media (min-width: 390px;) {
 .flex__container{
   background-color: blue;
 }  
@@ -102,8 +102,7 @@ article {
   padding: 150px;
   background-color: rgb(147, 147, 230);
   border border-collapse: separate;
-  border word-spacing:5px;
- }
+}
 
  tr {
   font-size: 50px;
@@ -143,9 +142,7 @@ margin-left: 10%;
 .parrafo__nuestrassemillas{
 font-size: 30px;
 font-family: Arial, Helvetica, sans-serif
-margin: 20px;
-padding: 20px;
-    
+ 
 }
 .otrohacheuno{
     border: 1px solid rgb(226, 182, 182);
@@ -153,9 +150,7 @@ padding: 20px;
     background-color: white; 
     color: rgb(154, 197, 154);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    height: 600px;
-    width: 690px;
-    
+        
 }
 h2{
     padding: 5px;
@@ -170,9 +165,9 @@ iframe{
 .flex__videoscontenedor{
 display: flex;
 justify-content: space-around;
-flex flex-basis: auto;
 
 }
+
 .videouno{
     background-color: chocolate;
     margin: 20px;
