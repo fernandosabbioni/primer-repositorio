@@ -19,6 +19,7 @@ body {
   align-items: center;
   margin: auto;
   width: 2300px;
+  
 }
 .navbar__links {
   list-style: none;
@@ -32,16 +33,26 @@ body {
   width: 200px;
   height: 200px;
   
+  
 }
 .titulo__general{
   color: rgb(21, 21, 20);
   font-weight: 600px;
-  text-align: left;
-}
+  text-align: center;
+ height: 100px;
+ animation-duration: 5s;
+ animation-name: aparecer;
+ animation-iteration-count: infinite;
+ }
+ 
 .title__principal{
   margin: 50px; padding: auto;
   text-align: center;
   font-size: xx-large;
+  background-image: linear-gradient(green, yellow);
+  animation-duration: 2s;
+  animation-name: entrada;
+  animation-iteration-count: infinite;
 }
 
 ul li {
@@ -65,8 +76,11 @@ header {
 
 .subtitulo__general{
   font-size: 50px;
-  text-align: left;
+  text-align: center;
   color: white;
+  transform: translate(10px, 20px);
+  animation-duration: 1s;
+  animation-name: none;
 }
 h4 {
   color: white;
@@ -74,10 +88,16 @@ h4 {
   text-align: left;
   padding-right: 300px;
 }
+.texto_animado{
+  animation-duration: 2s;
+  animation-name: las semillas;
+  animation-iteration-count: inherit;
+}
 h3{
   color: white;
   padding-right: 20px;
   margin: 20px;
+  background-image: linear-gradient(to bottom,green,yellow);
 }
 ul {
   font-size: 20px;
@@ -88,7 +108,7 @@ ul {
 footer {
   background-color: rgb(76, 200, 241);
   margin: auto;
-  Height: 1000px;
+  Height: 500px;
   font-size: small; 
 
 }
@@ -137,12 +157,12 @@ margin-left: 10%;
   color: rgb(5, 117, 5);
   font-size: 250%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-position: right;
-  }
+  background-position: center;
+ }
 .parrafo__nuestrassemillas{
-font-size: 30px;
+font-size: 25px;
 font-family: Arial, Helvetica, sans-serif
- 
+
 }
 .otrohacheuno{
     border: 1px solid rgb(226, 182, 182);
@@ -150,10 +170,7 @@ font-family: Arial, Helvetica, sans-serif
     background-color: white; 
     color: rgb(154, 197, 154);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-        
-}
-h2{
-    padding: 5px;
+  
 }
 p{
     padding: 10px;
@@ -165,9 +182,7 @@ iframe{
 .flex__videoscontenedor{
 display: flex;
 justify-content: space-around;
-
 }
-
 .videouno{
     background-color: chocolate;
     margin: 20px;
@@ -179,4 +194,20 @@ justify-content: space-around;
 .videotres{
     background-color: chocolate;
     margin: 20px;
+}
+.lineauno{
+  margin: 10px;
+  padding: 10px;
+}
+.lineados{
+  margin: 10px;
+  padding: 10px;
+}
+.lineatres{
+  margin: 10px;
+  padding: 10px;
+}
+.lineacuatro{
+  margin: 10px;
+  padding: 10px;
 }
