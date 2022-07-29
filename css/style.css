@@ -32,13 +32,15 @@ body {
 .navbar__logo {
   width: 200px;
   height: 200px;
-  
+  transform: translate(10px, 130px);
+   
   
 }
 .titulo__general{
   color: rgb(21, 21, 20);
-  font-weight: 600px;
-  text-align: center;
+  font-weight: 200px;
+ text-align: center;
+ margin-left: 20px;
  height: 100px;
  animation-duration: 5s;
  animation-name: aparecer;
@@ -49,7 +51,8 @@ body {
   margin: 50px; padding: auto;
   text-align: center;
   font-size: xx-large;
-  background-image: linear-gradient(green, yellow);
+  background-image: linear-gradient(rgb(210, 245, 210), rgb(221, 157, 112)
+  );
   animation-duration: 2s;
   animation-name: entrada;
   animation-iteration-count: infinite;
@@ -94,10 +97,10 @@ h4 {
   animation-iteration-count: inherit;
 }
 h3{
-  color: white;
+  color: black;
   padding-right: 20px;
   margin: 20px;
-  background-image: linear-gradient(to bottom,green,yellow);
+  background-image: linear-gradient(to bottom,rgb(182, 240, 182), rgb(231, 180, 144));
 }
 ul {
   font-size: 20px;
@@ -170,6 +173,7 @@ font-family: Arial, Helvetica, sans-serif
     background-color: white; 
     color: rgb(154, 197, 154);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
   
 }
 p{
@@ -186,14 +190,17 @@ justify-content: space-around;
 .videouno{
     background-color: chocolate;
     margin: 20px;
+    transform: translate(10px, 20px);
 }
 .videodos{
     background-color: chocolate;
     margin: 20px;
+    transform: translate(10px, 20px);
 }
 .videotres{
     background-color: chocolate;
     margin: 20px;
+    transform: translate(10px, 20px);
 }
 .lineauno{
   margin: 10px;
