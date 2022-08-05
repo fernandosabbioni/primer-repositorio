@@ -1,142 +1,199 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0, width=device-width" />
-    <link rel="shortcut icon" href="icono/icono1.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="grid.css">
-    <!--ANIMATE CCD-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <title>Inicio</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Bootstrap</title>
   </head>
-  <header>
-        <div class="navbar__logo" >
-        
-      <img src="logo/LOGO FAA SEMILLAS.png" width="150px" height="150px" alt="logopaginainicio">
-
-  </div>
-      <nav class="navbar__links">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="Precios.html">Precios</a></li>
-          <li><a href="Nuestras semillas.html">Nuestras semillas</a></li>
-          <li><a href="Nosotros.html">Nosotros</a></li>
-          <li><a href="Contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-      <br>
-    <h1 class="titulo__general animate__pulse">SEMILLAS FAA</h1>
-    <h2 class="subtitulo__general animate_animate animate__lightSpeedInLeft">HACEMOS ALGO QUE CRECE</h2>
-  </div>
-  </header>
-  <main>
-    
-      <img
-        src="/imagenes/semillas4.jpg"
-        alt="campo de trigo"
-        width="2600"
-        height="700"
-      />
-      <br />
-    
-        <h2 class="title__principal animate__backInLeft">CONOCE TODAS NUESTRAS VARIEDADES DE SEMILLAS</h2>
-        <div class="flex__container">
-      <section class="productosuno">
-        <article> 
-          <h3>SOJA</h3>
+  <body>
+    <nav class="navbar navbar-expand-lg colornav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
           <img
-            src="imagenes/semillas.jpg"
-            width="500"
-            height="500"
-            alt="foto de SOJA"
+            src="./imagenes/LOGO FAA SEMILLAS.png"
+            alt=""
+            width="30"
+            height="24"
           />
-            <h4 class="texto_animado animate__bounceIn">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            voluptatum ut itaque inventore necessitatibus, eius natus ea, error
-            maiores neque quia aut. Iusto, accusamus odit voluptatum repudiandae
-            omnis accusantium commodi.
-          </h4>
-          </article>
-      </section>
-      <br />
-      <section class="productosdos">
-        <article>
-          <h3>MAÍZ</h3>
-          <img
-            src="imagenes/semillas2.jpg"
-            width="500"
-            height="500"
-            alt="foto de SOJA"
-          />
-          <h4 class="texto_animado animate__bounceIn">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
-            ratione vitae vel. Soluta ipsum non praesentium id at sunt itaque
-            illo, expedita nisi dolorem ducimus libero laudantium, saepe
-            aspernatur a!
-          </h4>
-        </article>
-      </section>
-      <br />
-      <section class="productostres">
-        <article>
-          <h3>TRIGO</h3>
-          <img
-            src="imagenes/semillas4.jpg"
-            width="500"
-            height="500"
-            alt="foto de SOJA"
-          />
-          <h4 class="texto_animado animate__bounceIn">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-            doloribus a eius modi aspernatur. Repudiandae earum tempore
-            excepturi quasi sequi omnis fuga obcaecati, sapiente sunt incidunt
-            debitis aperiam aliquid harum!
-          </h4>
-        </article>
-      </section>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+            </li>
+            </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="Search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="flex__videoscontenedor">
-        <h1 class="otrohacheuno">Mirá nuestros videos de semillas</h1>
-        <div class="videouno">
-        <h2>Subtítulo</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt.
-        </p>  
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/d8h313xKh-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="videodos">
-        <h2>Subtítulo</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt.
-        </p>  
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/d8h313xKh-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="videotres">
-        <h2>Subtítulo</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt.
-        </p>  
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/d8h313xKh-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        </div>
-  </main>
-  <footer>
+    </nav>
+    <div class="container-fluid"></div>
+    <h1 class="display-1 p-3 mb-2 bg-success text-white">SEMILLAS FEDERACIÓN AGRARIA ARGENTINA</h1>
+  </div>
 
-      <h2 class="lineauno">INSTITUCIONAL</h2>
-      <h2 class="lineados">CONSULTA CON UN ASESOR</h2>
-      <h2 class="lineatres">REDES SOCIALES</h2>
-      <h2 class="lineacuatro">FEDERACIÓN AGRARIA ARGENTINA</h2>
-    </div> 
+    <div class="justify-content-center row gap-5 bg-secondary">
+      <div class="card col-xl-3 col-md-6 col-sm-12 card text-dark bg-warning mb-3 card border-primary mb-3" style="width: 18rem">
+        <img
+          src="./imagenes/pexels-delphine-hourlay-691175.jpg" 
+          class="card-img-top"
+          alt="semillas"
+        />
+        <div class="card-body">
+          <div class="card-header bg-transparent border-success fw-bold">Nuestros productos</div>
+          <h5 class="card-title display-3">SOJA</h5>
+          <p class="card-text text-muted fs-2 fw-bold">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Componentes</a>
+          <a href="#" class="card-link">PRECIOS</a>
+
+        </div>
+      </div>
+      <div class="card col-xl-3 co-md-6 col-sm-12 card text-dark bg-warning mb-3 card border-primary mb-3" style="width: 18rem">
+        <img
+          src="./imagenes/semillas2.jpg"
+          class="card-img-top"
+          alt="semillas"
+        />
+        <div class="card-body">
+          <div class="card-header bg-transparent border-success fw-bold">Nuestros productos</div>
+          <h5 class="card-title display-3">MAÍZ</h5>
+          <p class="card-text text-muted fs-2 fw-bold">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Componentes</a>
+          <a href="#" class="card-link">PRECIOS</a>
+        </div>
+      </div>
+      <div class="card col-xl-3 co-md-6 col-sm-12 card text-dark bg-warning mb-3 card border-primary mb-3" style="width: 18rem">
+        <img src="./imagenes/semillas.jpg"card-img-top" alt="semillas" />
+        <div class="card-body">
+          <div class="card-header bg-transparent border-success fw-bold">Nuestros productos</div>
+          <h5 class="card-title display-3">TRIGO</h5>
+          <p class="card-text text-muted fs-2 fw-bold">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Componentes</a>
+          <a href="#" class="card-link">PRECIOS</a>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container-fluid"></div>
+      <h2 class="display-5 p-3 mb-2 bg-warning text-dark">MIRÁ NUESTROS VIDEOS DE PRODUCCIÓN DE SEMILLAS</h2>
+      <p class="lead p-3 mb-2 bg-success text-white">
+        Producción audiovisual que explora la realización genética de las
+        <mark>semillas</mark>
+      </p>
+    </div>
+  </div>
+  <div class="justify-content-center row bg-secondary">
+  
+    <div class="col-xl-3 col-md-6 col-sm-3 border-top">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6B5FHkrQt88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-3">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6B5FHkrQt88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-3">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6B5FHkrQt88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
-</footer>
+  </div>
+  <div class="container colornav">
+    <footer class="py-3 text-muted fs-4">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>SOJA</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">Oficina Soja: Te. 24252262672</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">FAA</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">Departamento comercial</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>MAÍZ</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">Oficina Maíz: Te. 24252262672</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">FAA</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">Departamento comercial</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>TRIGO</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">Oficina Trigo: Te. 73472272727</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">FAA</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-primary">Departamento Comercial</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5 class="link-success">Suscribite a nuestro newsletter</h5>
+            <p class="link-primary">Recibi todas las novedades de los últimos productos</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 background-color: text-black">
+        <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+      
+    </footer>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
