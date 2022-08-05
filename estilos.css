@@ -1,0 +1,24 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.colornav {
+  background-color: rgb(183, 238, 183);
+}
+.carousel-inner {
+  max-height: 60rem;
+}
+@media (max-width: 768px) {
+  #Introducción {
+    width: 75%;
+  }
+}
+.fotologo {
+  margin-top: 50px;
+}
+.container {
+  background-color: rgb(182, 241, 182);
+  margin-top: 20px;
+  text-decoration-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
